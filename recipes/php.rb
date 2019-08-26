@@ -1,4 +1,4 @@
-ode.override['php']['install_method'] = node[:lamp][:php][:install_method]
+node.override['php']['install_method'] = node[:lamp][:php][:install_method]
 
 include_recipe 'php'
 
